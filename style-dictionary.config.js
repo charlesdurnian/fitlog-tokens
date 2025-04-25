@@ -1,14 +1,18 @@
+// style-dictionary.config.js
+
 module.exports = {
     source: ["tokens/**/*.json"],
     platforms: {
-      web: {
-        transformGroup: "web",
-        buildPath: "dist/web/",
-        files: [{
-          destination: "tailwind.tokens.js",
-          format: "javascript/es6"
-        }]
-      },
+        web: {
+            transformGroup: "web",
+            buildPath: "dist/web/",
+            files: [
+              {
+                destination: "tailwind.tokens.js",
+                format: "javascript/module-flat" 
+              }]
+          },
+          
       ios: {
         transformGroup: "ios",
         buildPath: "dist/ios/",
@@ -23,9 +27,9 @@ module.exports = {
         buildPath: "dist/android/",
         files: [{
           destination: "tokens.xml",
-          format: "android/xml"
+          format: "android/resources"
         }]
-      }
+      }      
     }
   }
   

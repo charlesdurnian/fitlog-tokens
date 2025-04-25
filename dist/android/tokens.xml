@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly, this file was auto-generated.
+-->
+<resources>
+  <string name="color_primary">#4F46E5</string>
+  <string name="color_background">#FFFFFF</string>
+  <string name="color_text">#111827</string>
+  <string name="spacing_xs">4px</string>
+  <string name="spacing_sm">8px</string>
+  <string name="spacing_md">16px</string>
+  <string name="spacing_lg">24px</string>
+  <string name="spacing_xl">32px</string>
+</resources>
