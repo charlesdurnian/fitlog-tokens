@@ -1,0 +1,14 @@
+{
+  "name": "@fitlog/tokens",
+  "version": "0.1.0",
+  "main": "dist/web/tailwind.tokens.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "style-dictionary build"
+  },
+  "devDependencies": {
+    "style-dictionary": "^4.4.0"
+  }
+}
